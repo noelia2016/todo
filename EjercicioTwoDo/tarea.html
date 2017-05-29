@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <title>TwoDo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="contenedor">
+        <!-- esto comprende a todo mi contenedor principal-->
+        <div id="encabezado">            
+            <!-- esto comprende a todo mi encabezado principal-->
+            <!--div id="logo"><i class="fa fa-home fa-fw" aria-hidden="true"></i>TwoDo</div-->
+            <div id="logo"><img src="../EjercicioTwoDo/images/twodo.png" alt="Logo del sitio" height="60px" width="35%" /></div>
+            <div id="menu">
+                <ul class="rss">
+                    <li>Demo</li>
+                    <li>Blog</li>
+                    <li>Ayuda</li>
+                    <li><a href="main.html">Volver</a></li>
+                    <li><i class="fa fa-user-circle" aria-hidden="true"></i> Usuario</li>
+                </ul>
+            </div>
+            <!-- fin del encabezado-->
+        </div>
+        <div id="cont_general">          
+            <!-- esto comprende a todo mi encabezado principal-->
+            <h1><i class="fa fa-clipboard" aria-hidden="true"></i> <b>Titulo de la tarea elegida</b></h1>
+            <div class="cuerpo-tarea">
+                <div class="acciones">
+                    <p><i class="fa fa-user-circle-o" aria-hidden="true"></i> <u>Acciones:</u> </p>
+                    <ol>
+                        <li>Documentaci&oacute;n</li>
+                        <li>Fecha de inicio: 24/05/2017</li>
+                        <li>Duracion estimada: 50 horas.</li>
+                    </ol>
+                </div>
+                <div class="responsables">
+                    <p><i class="fa fa-user-circle-o" aria-hidden="true"></i> <u>Responsables:</u> </p>
+                    <ul>
+                        <li>Beto Bartolo</li>
+                        <li>Laura Moyano</li>
+                        <li>Alberto Pino</li>
+                        <li>Lautaro Mingolo</li>
+                    </ul>
+                    <br/>
+                    <a href=""><i class="fa fa-plus" aria-hidden="true"></i> Agregar </a>
+                </div>
+            </div><br/>
+            <!-- fin del cuerpo de la tarea -->
+            <h4><u><b> Descripcion:</b></u></h4>
+            <p>Aca hacemos de todo para poder ver que es lo que tiene que hacer el usuario y terminar con el trabajo de una vez por todas. </p>
+            <p><a href="">Editar</a></p>
+            <!-- Aca van las diferentes tareas que pertenecen al checklist de la tarea elegida -->
+            <div class="checklist" ><h3><b><u>CHECKLIST</u></b></h3>
+            <p><b><u>Instalaci&oacute;n:</u></b></p>
+                <ul>
+                    <li>Descargar el ejecutable de la siguiente pagina www.upso.edu.ar</li>
+                    <li>Descomprimir el archivo en c.</li>
+                    <li>Instalar haciendo doble click </li>
+                    <li>Y arreglate como puedas!!!!!! Exitos</li>
+                </ul>
+                <a href="">Nueva tarea</a>
+                <p><b><u>Subtareas:</u></b></p>
+                <ul>
+                    <li>Descargar el ejecutable de la siguiente pagina www.upso.edu.ar</li>
+                    <li>Descomprimir el archivo en C:/ fuera de archivos programa.</li>
+                    <li>Instalar haciendo doble click </li>
+                    <li>Y arreglate como puedas!!!!!! Exitos</li>
+                </ul>
+                <a href="">Nueva tarea</a>
+            </div>
+            <!-- Fin de diferentes tareas que pertenecen al checklist -->
+            
+            <!-- inicion de div de comentarios-->
+            <div class="comentarios">
+                <p><b><u>Comentarios</u></b></p>
+                <p>Explicaci&oacute;n de la tarea que realizo Manuela.</p>
+                <p>Explicaci&oacute;n de la tarea que realizo Arnol.</p>
+                <p>Explicaci&oacute;n de la tarea que realizo Miriam.</p>
+                <form action="" method="post">
+                    <textarea rows="4" cols="50">Escriba su comentario...</textarea><br/>
+                    <input type="button" value="Comentar"/>
+                </form>
+            </div>
+            <!-- fin de div de comentarios-->
+        </div>
+    </div>
+</body>
+</html>
