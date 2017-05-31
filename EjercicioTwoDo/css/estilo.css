@@ -6,8 +6,8 @@
    }
    
    ul li{
-    list-style: none;
-    margin-top:0.3 cm;
+       list-style: none;
+       margin-top:0.3 cm;
    }
    
    h1,h4, a, input {
@@ -59,7 +59,7 @@
    }
    
    .rss li{
-        display:-moz-inline-box;
+        display:inline-block;
         list-style-type: none;
         padding: 0 0 5px 15px;
    }
@@ -74,8 +74,17 @@
         clear:both;
    }
    
-   #cont_general p, textarea {
+   #cont_general p, textarea, h2 {
         margin-left:15px;
+   }
+   
+   .comentarios {
+       margin-left:15px;
+   }
+   
+   .text-coment  p {
+       margin-left:25px;
+       padding-top:0.2px;
    }
     
    #actividades {
@@ -130,6 +139,22 @@
        margin: 10px 15px 10px 8px;
        height:10%;
        width:80%;
+   }
+   
+   .tarea_detalle,.tarea_vencida, .tarea_a_vencer {
+       width:90%;
+       height:98%;
+       border-color:#581845;
+       border-style:groove;
+       margin-top:13px;
+   }
+   
+   .tarea_vencida {
+       background-color:#FF5733;
+   }
+   
+   .tarea_a_vencer{
+       background-color:#FFDD33;
    }
    
    .responsables, .acciones {
