@@ -1,5 +1,5 @@
    #contenedor{
-       height:1480px;
+       height:1080px;
        width:1320px;
        border-color:#FF09AA;
        border-style:solid;
@@ -16,7 +16,11 @@
    
    /* inicio del contenedor header */
    #encabezado {
-       color: #FF09AA;
+       /*background-color: #E8D291;*/
+       background: -webkit-radial-gradient(blue, green, red); /* Safari 5.1 to 6.0 */
+       background: -o-radial-gradient(blue, green, red); /* For Opera 11.6 to 12.0 */
+       background: -moz-radial-gradient(blue, green, red); /* For Firefox 3.6 to 15 */
+       background: radial-gradient(blue, green, red); /* Standard syntax */
        text-align: center;
        text-transform: capitalize;
        border-color:#AA30EE;
@@ -29,15 +33,17 @@
       color: blue;
       text-align: center;
       float:left;
-      border-color:red;
-      border-style:solid;
+      /*border-color:red;
+      border-style:solid;*/
       height:98.5%;
       width:19.1%;
    }
    
    #logo img {
-      height:107px;
-      width:90%;
+      height:95px;
+      width:95%;
+      border-radius: 160px; -webkit-border-radius: 160px; -moz-border-radius: 160px; no-repeat;
+      border:5px solid #666;
    }
 
    #menu {
@@ -46,9 +52,9 @@
       color: red;
       text-align: center;
       float:left;
-      border-color:red;
-      border-style:solid;
-      height:98.5%;
+      /*border-color:red;
+      border-style:solid;*/
+      height:99.9%;
       width:79.9%;
    } 
 
@@ -70,7 +76,7 @@
         border-color:green;
         border-style:double;
         width:99.5%;
-        height:84%;
+        height:89%;
         clear:both;
    }
    
@@ -88,7 +94,7 @@
    }
     
    #actividades {
-        background-color:#E9A829;
+        background-color:#FCE890;
         width:19%;
         height:98%;
         float:left;
