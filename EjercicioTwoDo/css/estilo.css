@@ -49,13 +49,13 @@
    #menu {
       font-family: Arial;
       font-size: 28pt;
-      color: red;
+      color: white;
       text-align: center;
       float:left;
       /*border-color:red;
       border-style:solid;*/
       height:99.9%;
-      width:79.9%;
+      width:80.8%;
    } 
 
    #menu ul {
@@ -68,6 +68,9 @@
         display:inline-block;
         list-style-type: none;
         padding: 0 0 5px 15px;
+        border-radius:90px 65px;
+        border-color:#6666;
+        border-style:solid;
    }
    /* fin contenedor del header */
    
