@@ -68,9 +68,8 @@
         display:inline-block;
         list-style-type: none;
         padding: 0 0 5px 15px;
-        border-radius:90px 65px;
-        border-color:#6666;
-        border-style:solid;
+        border-radius:60px 20px 5px;
+        border:#666 7px double;
    }
    /* fin contenedor del header */
    
