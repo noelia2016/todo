@@ -1,5 +1,5 @@
    #contenedor{
-       height:1080px;
+       height:1680px;
        width:1320px;
        border-color:#FF09AA;
        border-style:solid;
@@ -145,10 +145,15 @@
    
    /* cuerpo de la tarea donde esta la descripcion y los responsables que van a realizar */
    
-   .cuerpo-tarea, comentarios {
+   .cuerpo-tarea {
        margin: 10px 15px 10px 8px;
-       height:10%;
+       height:12%;
        width:80%;
+   }
+   
+   .cuerpo-tarea a {
+       float:right;
+       margin-right:12px;
    }
    
    .tarea_detalle,.tarea_vencida, .tarea_a_vencer {
