@@ -43,7 +43,7 @@
       height:95px;
       width:95%;
       border-radius: 160px; -webkit-border-radius: 160px; -moz-border-radius: 160px; no-repeat;
-      border:5px solid #666;
+      border:5px solid #FCFCF9;
    }
 
    #menu {
@@ -69,7 +69,7 @@
         list-style-type: none;
         padding: 0 0 5px 15px;
         border-radius:60px 20px 5px;
-        border:#666 7px double;
+        border: white 7px double;
    }
    /* fin contenedor del header */
    
@@ -83,7 +83,7 @@
    }
    
    #cont_general p, textarea, h2 {
-        margin-left:15px;
+        margin-left:12px;
    }
    
    .comentarios {
@@ -98,15 +98,16 @@
    #actividades {
         background-color:#FCE890;
         width:19%;
-        height:98%;
+        height:96.5%;
         float:left;
-        border-color:#EE99DD;
-        border-style:solid;
+        margin-top:12px;
+        /*border-color:#EE99DD;
+        border-style:solid;*/
    }
    
    #cuerpo {
-        border-color:#EE99DD;
-        border-style:solid;
+        /*border-color:#EE99DD;
+        border-style:solid;*/
         width:80%;
         height:98%;
         float:left;
@@ -120,6 +121,7 @@
        border-color:#yellow;
        border-style:solid;
        margin-left:1.5cm;
+       margin-top:12px;
    }
    
    /* fin del contenedor general */
@@ -184,7 +186,7 @@
        border-width: 4px;  
        height:450px;
        width:95%;
-       margin-left:25px;
+       margin-left:23px;
    }
    
    .checklist a {
